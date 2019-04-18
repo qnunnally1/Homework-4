@@ -109,4 +109,11 @@ or simply
 truffle test
 ```
 
-In the terminal, you should see the contract compile and the passing result of each tested function listed above.
+In the terminal, you should see the contract compile and the passing result of each tested function listed above. The result should look similar to that of the results below.
+```
+✓ it should initialize an instructor (243ms)
+✓ it should initialize a second instructor (146ms)
+✓ it should get an instructor, specifically the first (62ms)
+✓ it should get all instructors, in this case 2 (38ms)
+✓ it should get a count of 2 instructors
+```
